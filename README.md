@@ -1,4 +1,4 @@
-Internet Connection Control with SwiftUI
+Internet Connection Check with SwiftUI
 
 NWPathMonitor
 Observation Framework
