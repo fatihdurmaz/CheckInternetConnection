@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE46EA4B2B3025E20025E028 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DE46EA4A2B3025E20025E028 /* Lottie */; };
+		DE46EA4D2B3028040025E028 /* connection.json in Resources */ = {isa = PBXBuildFile; fileRef = DE46EA4C2B3028040025E028 /* connection.json */; };
+		DE46EA4F2B3038C20025E028 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = DE46EA4E2B3038C20025E028 /* success.json */; };
 		DED74A1A2B2F961C00D11386 /* CheckInternetConnectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED74A192B2F961C00D11386 /* CheckInternetConnectionApp.swift */; };
 		DED74A1C2B2F961C00D11386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED74A1B2B2F961C00D11386 /* ContentView.swift */; };
 		DED74A1E2B2F961D00D11386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED74A1D2B2F961D00D11386 /* Assets.xcassets */; };
 		DED74A212B2F961D00D11386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED74A202B2F961D00D11386 /* Preview Assets.xcassets */; };
+		DED74A282B2F97DD00D11386 /* ConnectivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED74A272B2F97DD00D11386 /* ConnectivityMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE46EA4C2B3028040025E028 /* connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = connection.json; sourceTree = "<group>"; };
+		DE46EA4E2B3038C20025E028 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		DED74A162B2F961C00D11386 /* CheckInternetConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckInternetConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED74A192B2F961C00D11386 /* CheckInternetConnectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternetConnectionApp.swift; sourceTree = "<group>"; };
 		DED74A1B2B2F961C00D11386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DED74A1D2B2F961D00D11386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED74A202B2F961D00D11386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DED74A272B2F97DD00D11386 /* ConnectivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE46EA4B2B3025E20025E028 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				DED74A192B2F961C00D11386 /* CheckInternetConnectionApp.swift */,
+				DE46EA4C2B3028040025E028 /* connection.json */,
+				DE46EA4E2B3038C20025E028 /* success.json */,
 				DED74A1B2B2F961C00D11386 /* ContentView.swift */,
 				DED74A1D2B2F961D00D11386 /* Assets.xcassets */,
 				DED74A1F2B2F961D00D11386 /* Preview Content */,
+				DED74A272B2F97DD00D11386 /* ConnectivityMonitor.swift */,
 			);
 			path = CheckInternetConnection;
 			sourceTree = "<group>";
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = CheckInternetConnection;
+			packageProductDependencies = (
+				DE46EA4A2B3025E20025E028 /* Lottie */,
+			);
 			productName = CheckInternetConnection;
 			productReference = DED74A162B2F961C00D11386 /* CheckInternetConnection.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = DED74A0D2B2F961C00D11386;
+			packageReferences = (
+				DE46EA492B3025E20025E028 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = DED74A172B2F961C00D11386 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED74A212B2F961D00D11386 /* Preview Assets.xcassets in Resources */,
+				DE46EA4F2B3038C20025E028 /* success.json in Resources */,
 				DED74A1E2B2F961D00D11386 /* Assets.xcassets in Resources */,
+				DE46EA4D2B3028040025E028 /* connection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED74A282B2F97DD00D11386 /* ConnectivityMonitor.swift in Sources */,
 				DED74A1C2B2F961C00D11386 /* ContentView.swift in Sources */,
 				DED74A1A2B2F961C00D11386 /* CheckInternetConnectionApp.swift in Sources */,
 			);
@@ -344,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE46EA492B3025E20025E028 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE46EA4A2B3025E20025E028 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE46EA492B3025E20025E028 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DED74A0E2B2F961C00D11386 /* Project object */;
 }
