@@ -1,4 +1,3 @@
-#SwiftUI
 Internet Connection Control with SwiftUI
 
 NWPathMonitor
